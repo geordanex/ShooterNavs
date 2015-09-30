@@ -51,7 +51,7 @@ function love.update(dt)
       canShootTimer = canShootTimerMax
   end
 
-  --Siempre empesar con una forma facil de salir del juego
+  --Siempre empezar con una forma facil de salir del juego
   if love.keyboard.isDown('escape') then
       love.event.push('quit')
   end
